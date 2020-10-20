@@ -49,7 +49,7 @@ int main()
 		cin >> input;
 		cout << c[rand() % 25] << name << endl;
 		cin >> input;
-		cout << c[rand() % 24] << name << endl;
+		cout << c[rand() % 25] << name << endl;
 		cin >> input;
 
 		cout << "Do you wanna try again?(y/n) " << endl;
