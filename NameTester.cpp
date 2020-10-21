@@ -35,6 +35,17 @@ int main()
 		"What's your favourite colour sticky note ",
 		"What's your favourite colour pen ",
 		"Who's your favourite Youtuber/Actor ",
+		"Are you reading anything right now ",
+		"Do you like Harry Potter or Percy Jackson better ",
+		"Do you like video games ",
+		"What's your favourite type of headwear ",
+		"Do you wear glasses ",
+		"What is/was your favourite subject in school ",
+		"What's your dream vacation ",
+		"What's the colour of your toothbrush ",
+		"What colour do you like highlighting in ",
+		"What's your favourite food ",
+		"What's your favourite animal ",
 	};
 	//vars
 	string again;
@@ -45,11 +56,11 @@ int main()
 		cout << "Hello, please type a name:" << endl;
 		cin >> name;
 
-		cout << c[rand() % 25] << name << endl;
+		cout << c[rand() % 36] << name << "?" << endl;
 		cin >> input;
-		cout << c[rand() % 25] << name << endl;
+		cout << c[rand() % 36] << name << "?" << endl;
 		cin >> input;
-		cout << c[rand() % 25] << name << endl;
+		cout << c[rand() % 36] << name << "?" << endl;
 		cin >> input;
 
 		cout << "Do you wanna try again?(y/n) " << endl;
